@@ -1,32 +1,28 @@
-import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
+  <header className="header-wrapper">
+    <div className="l-header landing-section">
+      <a href="mailto:activateproinc@gmail.com">Contact the Organizers</a>
+      <div>
+        <a href="/">
+          twitter svg
+          <span class="t-hidden">Twitter</span>
+        </a>
+        <a href="/">
+          instagrame svg
+          <span class="t-hidden">Instagram</span>
+        </a>
+        <a href="/">
+          linkedin svg
+          <span class="t-hidden">LinkedIn</span>
+        </a>
+        <a href="/">
+          facebook svg
+          <span class="t-hidden">Facebook</span>
+        </a>
+      </div>
     </div>
   </header>
 )
