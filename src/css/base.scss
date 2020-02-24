@@ -15,30 +15,11 @@ html {
 body {
   margin: 0;
   background: $white;
-  font: 18px/1.4 $font-panton-regular;
-  color: $darkGray;
+  font: 16px/1.4 $font-mont;
+  color: $gray;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: $font-panton-bold;
-  color: $darkerGray;
-  font-weight: normal;
 
-  line-height: 1.7;
-  // margin: 1em 0 15px;
-  // padding: 0;
-
-  // @include mobile {
-  //   line-height: 1.4;
-  // }
-}
-
-// TODO - REMOVE PX AND REPLACE WITH EM OR REM
 h1,
 .h1 {
   font-size: 30px;

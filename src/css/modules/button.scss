@@ -1,0 +1,27 @@
+.btn {
+  padding-top: 1.5625rem;
+  padding-bottom: 1.5625rem;
+  padding-top: 32px;
+  padding-bottom: 28px;
+  max-width: 263px;
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+  font-weight: 600;
+  border-radius: 10px;
+  border: none;
+  place-content: center;
+  text-decoration: none;
+  color: $primaryColor;
+  background-color: $primaryBackgroundColor;
+
+  &:hover {
+    text-decoration: none;
+    background-color: $primaryBackgroundColorHover;
+    cursor: pointer;
+  }
+
+  &:focus {
+    background-color: $primaryBackgroundColorFocus;
+  }
+}

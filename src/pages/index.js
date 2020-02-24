@@ -12,7 +12,7 @@ const IndexPage = () => (
     <div class="landing-intro">
       <h1 class="t-hidden">Activate Conference 2020</h1>
       <Logo />
-      <datatime>September 19</datatime>
+      <datatime class="landing__datetime">September 19</datatime>
       <p>LSU Business Education Complex</p>
     </div>
     <ul>

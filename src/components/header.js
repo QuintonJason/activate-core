@@ -3,8 +3,8 @@ import React from "react"
 
 const Header = ({ siteTitle }) => (
   <header className="header-wrapper">
-    <div className="l-header landing-section">
-      <a href="mailto:activateproinc@gmail.com">Contact the Organizers</a>
+    <div className="l-header landing__section">
+      <a href="mailto:activateproinc@gmail.com" class="landing__contact-emai">Contact the Organizers</a>
       <div>
         <a href="/">
           twitter svg

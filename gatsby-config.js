@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Activate Conference`,
+    title: `Activate Conference 2020`,
     description: ``,
     author: `@activ8conf`,
   },
@@ -13,6 +13,15 @@ module.exports = {
         name: `images`,
         path: `${__dirname}/src/images`,
       },
+    },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `montserrat\:400,600`
+        ],
+        display: 'swap'
+      }
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
