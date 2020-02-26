@@ -31,9 +31,22 @@
   list-style: none;
 }
 
+.landing__talk-category {
+  padding-right: 31px;
+  padding-left: 17px;
+  position: relative;
+  letter-spacing: .066em;
+
+  &:not(:last-of-type):after {
+    content: "//";
+    position: absolute;
+    right: 0;
+  }
+}
+
 .landing__contact-email {
   font-size: 1em;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .landing-buttons {

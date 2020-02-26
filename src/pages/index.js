@@ -16,10 +16,10 @@ const IndexPage = () => (
       <p class="landing__location">LSU Business Education Complex</p>
     </div>
     <ul class="landing__talk-categories">
-      <li>Development</li>
-      <li>Design</li>
-      <li>Business</li>
-      <li>Hackathon</li>
+      <li class="landing__talk-category">Development</li>
+      <li class="landing__talk-category">Design</li>
+      <li class="landing__talk-category">Business</li>
+      <li class="landing__talk-category">Hackathon</li>
     </ul>
     <div class="landing-buttons">
       <a href="https://docs.google.com/forms/d/e/1FAIpQLSfCiyIco0ZjRO3-HTBJoWVHwUUVnlXdI_pHYBNDGeSo-yi9_A/viewform?usp=sf_link" class="btn landing-button">Be a Speaker</a>
