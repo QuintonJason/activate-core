@@ -1,25 +1,30 @@
 import PropTypes from "prop-types"
 import React from "react"
 
+import TwitterIcon from "../images/Twitter"
+import FacebookIcon from "../images/Facebook"
+import InstagramIcon from "../images/Instagram"
+import LinkedinIcon from "../images/Linkedin"
+
 const Header = ({ siteTitle }) => (
   <header className="header-wrapper">
     <div className="l-header landing__section">
-      <a href="mailto:activateproinc@gmail.com" class="landing__contact-emai">Contact the Organizers</a>
-      <div>
-        <a href="/">
-          twitter svg
+      <a href="mailto:activateproinc@gmail.com" class="landing__contact-email">Contact the Organizers</a>
+      <div class="header-links">
+        <a class="header-link" href="/">
+          <TwitterIcon />
           <span class="t-hidden">Twitter</span>
         </a>
-        <a href="/">
-          instagrame svg
+        <a class="header-link" href="/">
+          <InstagramIcon />
           <span class="t-hidden">Instagram</span>
         </a>
-        <a href="/">
-          linkedin svg
+        <a class="header-link" href="/">
+          <LinkedinIcon />
           <span class="t-hidden">LinkedIn</span>
         </a>
-        <a href="/">
-          facebook svg
+        <a class="header-link" href="/">
+          <FacebookIcon />
           <span class="t-hidden">Facebook</span>
         </a>
       </div>

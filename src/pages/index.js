@@ -13,9 +13,9 @@ const IndexPage = () => (
       <h1 class="t-hidden">Activate Conference 2020</h1>
       <Logo />
       <datatime class="landing__datetime">September 19</datatime>
-      <p>LSU Business Education Complex</p>
+      <p class="landing__location">LSU Business Education Complex</p>
     </div>
-    <ul>
+    <ul class="landing__talk-categories">
       <li>Development</li>
       <li>Design</li>
       <li>Business</li>

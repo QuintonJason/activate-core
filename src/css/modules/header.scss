@@ -1,0 +1,12 @@
+.l-header {
+  @include max-width();
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-link {
+  & + & {
+    margin-left: 30px;
+  }
+}

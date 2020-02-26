@@ -1,21 +1,43 @@
+.landing-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .landing__datetime {
-  margin-top: 32px;
+  margin-top: 36px;
   display: block;
   font-size: 74px;
+  font-weight: 600;
   text-align: center;
+  color: $primaryColor;
 }
 
 .landing__location {
-  margin-top: 11px;
+  margin-top: 13px;
   display: block;
   font-size: 28px;
+  letter-spacing: -.04em;
   text-align: center;
+  color: $primaryColor;
 }
-.landing__contact-emai {
+
+.landing__talk-categories {
+  margin-top: 77px;
+  padding-left: 0;
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+  list-style: none;
+}
+
+.landing__contact-email {
   font-size: 1em;
+  text-decoration: underline;
 }
 
 .landing-buttons {
+  margin-top: 64px;
   display: flex;
 
   @include small {
