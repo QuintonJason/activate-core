@@ -22,9 +22,9 @@ const IndexPage = () => (
       <li class="landing__talk-category">Hackathon</li>
     </ul>
     <div class="landing-buttons">
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLSfCiyIco0ZjRO3-HTBJoWVHwUUVnlXdI_pHYBNDGeSo-yi9_A/viewform?usp=sf_link" class="btn landing-button">Be a Speaker</a>
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLSeTs_TKwHtFHw5qCWClAwzzA0NMBrtwffjdKDSsWeWPq--Beg/viewform?usp=sf_link" class="btn landing-button">Be a Volunteer</a>
-      <a href="http://www.activateconf.com/assets/uploads/general/activate-sponsor-deck-2019.pdf" class="btn landing-button">Be a Sponsor</a>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSfCiyIco0ZjRO3-HTBJoWVHwUUVnlXdI_pHYBNDGeSo-yi9_A/viewform?usp=sf_link" class="btn landing-button">Be A Speaker</a>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSeTs_TKwHtFHw5qCWClAwzzA0NMBrtwffjdKDSsWeWPq--Beg/viewform?usp=sf_link" class="btn landing-button">Be A Volunteer</a>
+      <a href="http://www.activateconf.com/assets/uploads/general/activate-sponsor-deck-2019.pdf" class="btn landing-button">Be A Sponsor</a>
     </div>
   </Layout>
 )
