@@ -9,3 +9,20 @@ $text-color: #fff;
 $accent-color: #27a4de;
 $dark-color: #000;
 
+:root {
+  /* COLORS */
+  --color-black: #000;
+  --color-white: #fff;
+  --color-blue-0: #1b2eda;
+  --color-gray-0: #c4c4c4;
+
+  /* FONT FAMILY */
+  --font-roboto: Roboto, sans-serif;
+
+  /* FONT WEIGHTS */
+  --weight-regular: 400;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+  --weight-black: 900;
+}
+

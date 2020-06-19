@@ -1,0 +1,26 @@
+/* TYPE SCALE */
+:root {
+  --type-scale-14: .875rem;
+  --type-scale-16: 1rem;
+  --type-scale-18: 1.125rem;
+  --type-scale-20: 1.25rem;
+  --type-scale-24: 1.5rem;
+  --type-scale-30: 1.875rem;
+  --type-scale-36: 2.25rem;
+  --type-scale-48: 3rem;
+}
+
+.t-banner {
+  font-size: var(--type-scale-48);
+  color: var(--color-black);
+}
+
+.t-display {
+  font-size: var(--type-scale-30);
+  color: var(--color-black);
+}
+
+.t-body {
+  font-size: var(--type-scale-14);
+  color: var(--color-black);
+}
