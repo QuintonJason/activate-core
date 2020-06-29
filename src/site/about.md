@@ -1,8 +1,43 @@
 ---
-title: Get Yours
-layout: layouts/base.njk
-subtitle: Clone and deploy your own EleventyOne starter template.
+title: Activate 2019
+layout: layouts/event.njk
+subtitle: Description text for Activate 20129
 ---
+
+<!-- EVENT HEADER -->
+<div class="event__header">
+  <h2 class="event__name">Activate 2019</h2>
+  <div class="event__info">
+    <p class="event__description">sdaoh aeo ago ao aego aeo eago ago aeo ageo aeoj </p>
+    <div class="event__details">
+      <p>Date <datetime>some time</datetime></p>
+      <p>Location some location</p>
+      <a href="#0" class="button">Register</a>
+    </div>
+  </div>
+</div>
+
+
+<div class="event__type">
+  <h2 class="event__type-title">Workshops</h2>
+  <h3 class="event__track">Student Track</h3>
+  <div class="talk">
+    <div class="talk__meta">
+      <div class="talk__image-container">
+        <img class="talk__image" src="" alt=""/>
+      </div>
+      <div class="talk__details">
+        <p class="talk__speaker-name">Name</p>
+        <p class="talk__speaker-info">Title, Company</p>
+        <p class="talk__talk-title">Talk Title</p>
+        <a class="talk__slides-link" href="#0">Slides</a>
+      </div>
+    </div>
+    <p>this is talk text. this is talk text. this is talk text. this is talk text. this is talk text. this is talk text. this is talk text. this is talk text. this is talk text. this is talk text. this is talk text. </p>
+  </div>
+</div>
+
+
 
 ## Hosting
 
