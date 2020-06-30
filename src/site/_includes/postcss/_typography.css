@@ -16,7 +16,22 @@
 }
 
 .t-display {
+  font-size: var(--type-scale-36);
+  color: var(--color-black);
+}
+
+.t-section-title {
   font-size: var(--type-scale-30);
+  color: var(--color-black);
+}
+
+.t-subhead {
+  font-size: var(--type-scale-18);
+  color: var(--color-black);
+}
+
+.t-body-tall {
+  font-size: var(--type-scale-16);
   color: var(--color-black);
 }
 

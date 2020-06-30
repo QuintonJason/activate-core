@@ -1,0 +1,40 @@
+.hackathon__wrapper {
+  padding-top: 52px;
+  display: flex;
+}
+
+.hackathon__info {
+  padding-right: 120px;
+  flex: 2;
+}
+
+.hackathon__headline {
+  margin-bottom: 58px;
+}
+
+.hackathon__teams {
+  min-width: 32%;
+  flex-shrink: 0;
+}
+
+.hackathon__teams-headline {
+  margin-top: 6px;
+  margin-bottom: 41px;
+}
+
+.hackathon-teams__list {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.hackathon-teams__list-item {
+  margin-bottom: 20px;
+}
+
+.hackathon-teams__name {
+  margin-bottom: 3px;
+}
+
+.hackathon-teams__link {
+  display: inline-flex;
+}

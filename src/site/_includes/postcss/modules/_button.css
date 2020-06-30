@@ -1,0 +1,11 @@
+.button {
+  padding-top: 13px;
+  padding-bottom: 16px;
+  display: inline-flex;
+  justify-content: center;
+  min-width: 152px;
+  font-size: var(--type-scale-16);
+  text-decoration: none;
+  color: var(--color-white);
+  background-color: var(--color-blue-0);
+}

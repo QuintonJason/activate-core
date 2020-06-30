@@ -3,17 +3,13 @@ $narrow: 400px;
 $mid: 740px;
 $wide: 1200px;
 
-/* colours */
-$page-color: #2424bb;
-$text-color: #fff;
-$accent-color: #27a4de;
-$dark-color: #000;
 
 :root {
   /* COLORS */
   --color-black: #000;
   --color-white: #fff;
   --color-blue-0: #1b2eda;
+  --color-blue-1: #27a4de;
   --color-gray-0: #c4c4c4;
 
   /* FONT FAMILY */

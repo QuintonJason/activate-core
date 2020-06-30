@@ -1,0 +1,46 @@
+.sponsor__headline {
+  margin-bottom: 70px;
+}
+
+.sponsor__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  @media (min-width: $mid) {
+    grid-template-columns: repeat(3, 1fr);
+  };
+  @media (min-width: $wide) {
+    grid-template-columns: repeat(4, 1fr);
+  };
+}
+
+.sponsor__grid:not(:last-of-type) {
+  margin-bottom: 70px;
+}
+
+.sponsor__grid--community {
+  grid-template-columns: repeat(3, 1fr);
+
+  @media (min-width: $mid) {
+    grid-template-columns: repeat(4, 1fr);
+  };
+  @media (min-width: $wide) {
+    grid-template-columns: repeat(5, 1fr);
+  };
+}
+
+.sponsor__grid--partners {
+  grid-template-columns: repeat(4, 1fr);
+
+  @media (min-width: $mid) {
+    grid-template-columns: repeat(6, 1fr);
+  };
+  @media (min-width: $wide) {
+    grid-template-columns: repeat(8, 1fr);
+  };
+}
+
+.sponsor__image {
+  width: 100%;
+  height: auto;
+}

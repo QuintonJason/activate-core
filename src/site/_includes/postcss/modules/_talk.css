@@ -1,0 +1,44 @@
+.talks {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 63px;
+  grid-column-gap: 40px;
+
+  @media (min-width: $wide) {
+    grid-template-columns: 1fr 1fr;
+  };
+
+  & + .event__track {
+    margin-top: 85px;
+  }
+}
+.talk__meta {
+  display: flex;
+}
+
+.talk__image-container {
+  margin-right: 36px;
+  min-width: 120px;
+  background-color: gray /* remove after image is added */
+}
+
+.talk__image {
+  width: 100%;
+  height: auto;
+}
+
+.talk__speaker-name {
+  margin-bottom: 3px;
+}
+
+.talk__speaker-info {
+  margin-bottom: 16px;
+}
+
+.talk__talk-title {
+  margin-bottom: 15px;
+}
+
+.talk__meta {
+  margin-bottom: 36px;
+}
