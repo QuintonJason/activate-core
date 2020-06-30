@@ -1,6 +1,19 @@
 ---
 layout: layouts/base.njk
 ---
-<main class="px-3 px-sm-0">
+<main class="px-3 px-sm-0 event">
+<nav role="navigation" aria-label="Events Navigation" class="events-nav">
+  <ul class="container events-nav__list">
+    <li class="events-nav__list-item">
+      <a class="events-nav__link" href="#0"><span class="events-nav__link-text">Previous Event</span></a>
+    </li>
+    <li class="events-nav__list-item">
+      <span class="events-nav__link-text">Current</span>
+    </li>
+    <li class="events-nav__list-item">
+      <a class="events-nav__link" href="#0"><span class="events-nav__link-text">Nevt Event</span></a>
+    </li>
+  </ul>
+</nav>
 {{ content | safe }}
 </main>

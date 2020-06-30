@@ -46,6 +46,7 @@ body {
   font-family: var(--font-source-sans);
   line-height: 1;
   background-color: var(--color-g-background-gray);
+  color: var(--color-black);
 }
 
 blockquote, q {
@@ -83,4 +84,18 @@ button {
     padding: 0;
     border: 0;
   }
+}
+
+a {
+  color: var(--color-blue-0);
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+  }
+}
+
+main {
+  padding-bottom: 155px;
 }

@@ -12,30 +12,44 @@
 
 .t-banner {
   font-size: var(--type-scale-48);
-  color: var(--color-black);
 }
 
 .t-display {
   font-size: var(--type-scale-36);
-  color: var(--color-black);
 }
 
 .t-section-title {
   font-size: var(--type-scale-30);
-  color: var(--color-black);
+}
+
+.t-body-heading {
+  font-size: var(--type-scale-20);
 }
 
 .t-subhead {
   font-size: var(--type-scale-18);
-  color: var(--color-black);
 }
 
 .t-body-tall {
   font-size: var(--type-scale-16);
-  color: var(--color-black);
 }
 
 .t-body {
   font-size: var(--type-scale-14);
-  color: var(--color-black);
+  line-height: 1.13;
+}
+
+.t-link {
+  color: var(--color-blue-0);
+}
+
+.t-hidden {
+  padding: 0;
+  width: 1px;
+  height: 1px;
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(0 0 99.9% 99.9%);
+  overflow: hidden;
+  border: 0;
 }

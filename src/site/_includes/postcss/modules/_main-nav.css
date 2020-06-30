@@ -1,0 +1,16 @@
+.main-nav__link {
+  font-size: var(--type-scale-18);
+
+  & + & {
+  margin-left: 54px;
+  }
+}
+
+.main-nav__link--button {
+  min-width: 123px;
+  height: 38px;
+
+  &.main-nav__link {
+    font-size: var(--type-scale-16);
+  }
+}
