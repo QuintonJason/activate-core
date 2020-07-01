@@ -1,6 +1,11 @@
 .hackathon__wrapper {
   padding-top: 52px;
   display: flex;
+  flex-direction: column;
+
+  @media (min-width: $mid) {
+    flex-direction: row;
+  };
 }
 
 .hackathon__info {

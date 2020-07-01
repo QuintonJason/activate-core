@@ -2,7 +2,12 @@
   padding-top: 108px;
   padding-bottom: 62px;
   display: flex;
-  border-bottom: var(--g-border-primary)
+  flex-direction: column;
+  border-bottom: var(--g-border-primary);
+
+  @media (min-width: $mid) {
+    flex-direction: row;
+  };
 }
 
 .index-intro__header {
