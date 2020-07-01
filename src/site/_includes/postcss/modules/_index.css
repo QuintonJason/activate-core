@@ -1,0 +1,27 @@
+.index-intro {
+  padding-top: 108px;
+  padding-bottom: 62px;
+  display: flex;
+  border-bottom: var(--g-border-primary)
+}
+
+.index-intro__header {
+  padding-right: 120px;
+}
+
+.index-intro__headline {
+  margin-bottom: 50px;
+}
+
+.index-intro__event {
+  min-width: 33%;
+  padding-top: 13px;
+}
+
+.index-intro__event-title {
+  margin-bottom: 36px;
+}
+
+.index-intro__event-image {
+  margin-bottom: 33px;
+}

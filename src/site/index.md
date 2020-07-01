@@ -1,70 +1,97 @@
 ---
 title: About Activate Core
-layout: layouts/base.njk
+layout: layouts/index.njk
 ---
-<div>
-  <div>
-    <h2 class="t-banner">About Activate Blurb</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pretium magna ac iaculis luctus. Vivamus tristique eleifend felis. Ut ut lorem id leo dapibus semper. Vestibulum fringilla est placerat, mattis erat a, condimentum enim. Morbi quis metus ac magna dignissim auctor. Nullam quis vulputate massa. Curabitur eget lectus sagittis, sagittis quam sed, ullamcorper tortor. Integer eu fringilla felis.</p>
+<article class="container index-intro">
+  <div class="index-intro__header">
+    <h2 class="t-banner index-intro__headline">About Activate Blurb</h2>
+    <p class="t-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pretium magna ac iaculis luctus. Vivamus tristique eleifend felis. Ut ut lorem id leo dapibus semper. Vestibulum fringilla est placerat, mattis erat a, condimentum enim. Morbi quis metus ac magna dignissim auctor. Nullam quis vulputate massa. Curabitur eget lectus sagittis, sagittis quam sed, ullamcorper tortor. Integer eu fringilla felis.</p>
   </div>
 
-  <div>
-    <h3>Next Event</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pretium magna ac iaculis luctus. Vivamus tristique eleifend felis. Ut ut lorem id leo dapibus semper.</p>
+  <div class="index-intro__event">
+    <h3 class="t-display index-intro__event-title">Next Event</h3>
+    <img class="index-intro__event-image" src="" alt="event image" />
+    <p class="t-body index-intro__event-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pretium magna ac iaculis luctus. Vivamus tristique eleifend felis. Ut ut lorem id leo dapibus semper.</p>
   </div>
-</div>
+</article>
 
-<div>
-  <h3 class="t-display">Past Events</h3>
-  <div>
-    <a>
-      <img src="" alt="test image">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pretium magna ac iaculis luctus. Vivamus tristique eleifend felis. Ut ut lorem id leo dapibus semper.</p>
-    </a>
-    <a>
-      <img src="" alt="test image">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pretium magna ac iaculis luctus. Vivamus tristique eleifend felis. Ut ut lorem id leo dapibus semper.</p>
-    </a>
-    <a>
-      <img src="" alt="test image">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pretium magna ac iaculis luctus. Vivamus tristique eleifend felis. Ut ut lorem id leo dapibus semper.</p>
-    </a>
-    <a>
-      <img src="" alt="test image">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pretium magna ac iaculis luctus. Vivamus tristique eleifend felis. Ut ut lorem id leo dapibus semper.</p>
-    </a>
-  </div>
-</div>
+<!-- PAST EVENTS -->
+<article class="container past-events">
+  <h3 class="t-display past-events__title">Past Events</h3>
 
-<div>
-  <h3>Past Sponsors & Partners</h3>
-  <div>
-    <img src="" alt="test image">
-    <img src="" alt="test image">
-    <img src="" alt="test image">
-    <img src="" alt="test image">
-    <img src="" alt="test image">
-    <img src="" alt="test image">
-    <img src="" alt="test image">
-    <img src="" alt="test image">
-    <img src="" alt="test image">
-    <img src="" alt="test image">
-    <img src="" alt="test image">
-    <img src="" alt="test image">
-    <img src="" alt="test image">
-    <img src="" alt="test image">
-    <img src="" alt="test image">
-    <img src="" alt="test image">
-    <img src="" alt="test image">
-    <img src="" alt="test image">
-    <img src="" alt="test image">
-    <img src="" alt="test image">
-    <img src="" alt="test image">
-    <img src="" alt="test image">
-    <img src="" alt="test image">
-    <img src="" alt="test image">
-    <img src="" alt="test image">
-  </div>
+  <ul class="past-events__list">
+    {%- for item in pastEvents.entries.slice(0,5) -%}
+      <li>
+        <a href="{{ item.link }}">{{ item.title }}</a>
+      </li>
+    {%- endfor -%}
+    <li class="past-events__list-item">
+      <a class="past-events__event">
+        <img class="past-events__image" src="" alt="test image">
+        <p class="t-body past-events__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pretium magna ac iaculis luctus. Vivamus tristique eleifend felis. Ut ut lorem id leo dapibus semper.</p>
+      </a>
+    </li>
+    <li class="past-events__list-item">
+      <a class="past-events__event">
+        <img class="past-events__image" src="" alt="test image">
+        <p class="t-body past-events__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pretium magna ac iaculis luctus. Vivamus tristique eleifend felis. Ut ut lorem id leo dapibus semper.</p>
+      </a>
+    </li>
+    <li class="past-events__list-item">
+      <a class="past-events__event">
+        <img class="past-events__image" src="" alt="test image">
+        <p class="t-body past-events__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pretium magna ac iaculis luctus. Vivamus tristique eleifend felis. Ut ut lorem id leo dapibus semper.</p>
+      </a>
+    </li>
+    <li class="past-events__list-item">
+      <a class="past-events__event">
+        <img class="past-events__image" src="" alt="test image">
+        <p class="t-body past-events__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pretium magna ac iaculis luctus. Vivamus tristique eleifend felis. Ut ut lorem id leo dapibus semper.</p>
+      </a>
+    </li>
+  </ul>
+</article>
+
+<!-- PAST SPONSORS -->
+<article class="container past-sponsors">
+  <h3 class="t-display past-sponsors__title">Past Sponsors & Partners</h3>
+  <ul class="past-sponsors__list">
+    <li>
+      <img src="" alt="test image">
+    </li>
+    <li>
+      <img src="" alt="test image">
+    </li>
+    <li>
+      <img src="" alt="test image">
+    </li>
+    <li>
+      <img src="" alt="test image">
+    </li>
+    <li>
+      <img src="" alt="test image">
+    </li>
+    <li>
+      <img src="" alt="test image">
+    </li>
+    <li>
+      <img src="" alt="test image">
+    </li>
+    <li>
+      <img src="" alt="test image">
+    </li>
+    <li>
+      <img src="" alt="test image">
+    </li>
+    <li>
+      <img src="" alt="test image">
+    </li>
+    <li>
+      <img src="" alt="test image">
+    </li>
+
+  </ul>
+</article>
 
 ## Post pages
 

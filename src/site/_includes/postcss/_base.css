@@ -32,6 +32,11 @@ ol, ul, li {
   border: 0;
 }
 
+ol, ul {
+  padding-left: 0;
+  list-style: none;
+}
+
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -89,6 +94,7 @@ button {
 a {
   color: var(--color-blue-0);
   text-decoration: none;
+  cursor: pointer;
 
   &:hover,
   &:focus {

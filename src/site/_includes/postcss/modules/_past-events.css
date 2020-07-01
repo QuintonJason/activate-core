@@ -1,0 +1,19 @@
+.past-events {
+  padding-top: 47px;
+  padding-bottom: 88px;
+  border-bottom: 1px solid black;
+}
+
+.past-events__title {
+  margin-bottom: 48px;
+}
+
+.past-events__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px 20px;
+}
+
+.past-events__image {
+  margin-bottom: 33px;
+}
