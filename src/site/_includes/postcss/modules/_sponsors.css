@@ -5,6 +5,7 @@
 .sponsor__grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  grid-gap: 27px 44px;
 
   @media (min-width: $mid) {
     grid-template-columns: repeat(3, 1fr);
@@ -14,7 +15,7 @@
   };
 }
 
-.sponsor__grid:not(:last-of-type) {
+.sponsor__grid:not(:last-child) {
   margin-bottom: 70px;
 }
 

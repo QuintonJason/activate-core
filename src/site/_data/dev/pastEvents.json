@@ -7,22 +7,34 @@
     {
       "title": "Event 1",
       "link": "#0",
-      "updated": "2020-01-06T00:00:00+00:00"
+      "updated": "2020-01-06T00:00:00+00:00",
+      "image": "",
+      "altText": "test",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pretium magna ac iaculis luctus. Vivamus tristique eleifend felis. Ut ut lorem id leo dapibus semper."
     },
     {
       "title": "Event 2",
       "link": "#0",
-      "updated": "2020-01-02T00:00:00+00:00"
+      "updated": "2020-01-02T00:00:00+00:00",
+      "image": "",
+      "altText": "test",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pretium magna ac iaculis luctus. Vivamus tristique eleifend felis. Ut ut lorem id leo dapibus semper."
     },
     {
       "title": "Event 3",
       "link": "#0",
-      "updated": "2019-11-25T00:00:00+00:00"
+      "updated": "2019-11-25T00:00:00+00:00",
+      "image": "",
+      "altText": "test",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pretium magna ac iaculis luctus. Vivamus tristique eleifend felis. Ut ut lorem id leo dapibus semper."
     },
     {
       "title": "Event 4",
       "link": "#0",
-      "updated": "2019-09-13T00:00:00+00:00"
+      "updated": "2019-09-13T00:00:00+00:00",
+      "image": "",
+      "altText": "test",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pretium magna ac iaculis luctus. Vivamus tristique eleifend felis. Ut ut lorem id leo dapibus semper."
     }
   ]
 }

@@ -27,95 +27,22 @@ subtitle: Description text for Activate 20129
 
   <!-- TALKS -->
   <div class="talks">
-    <div class="talk">
-      <div class="talk__meta">
-        <div class="talk__image-container">
-          <img class="talk__image" src="" alt=""/>
+    {%- for item in talks.entries -%}
+      <div class="talk">
+        <div class="talk__meta">
+          <div class="talk__image-container">
+            <img class="talk__image" src="{{ item.image }}" alt="{{ item.altText }}"/>
+          </div>
+          <div class="talk__details">
+            <p class="t-subhead talk__speaker-name">{{ item.speaker }}</p>
+            <p class="t-body talk__speaker-info">{{ item.speakerTitle }}, {{ item.speakerCompany }}</p>
+            <p class="t-subhead talk__talk-title">{{ item.talkTitle }}</p>
+            <a class="t-subhead talk__slides-link" href="{{ item.link }}">Slides</a>
+          </div>
         </div>
-        <div class="talk__details">
-          <p class="t-subhead talk__speaker-name">Name</p>
-          <p class="t-body talk__speaker-info">Title, Company</p>
-          <p class="t-subhead talk__talk-title">Talk Title</p>
-          <a class="t-subhead talk__slides-link" href="#0">Slides</a>
-        </div>
+        <p class="t-body talk__description">{{ item.description }}</p>
       </div>
-      <p class="t-body talk__description">this is talk text. this is talk text. this is talk text. this is talk text. this is talk text. this is talk text. this is talk text. this is talk text. this is talk text. this is talk text. this is talk text. </p>
-    </div>
-    <div class="talk">
-      <div class="talk__meta">
-        <div class="talk__image-container">
-          <img class="talk__image" src="" alt=""/>
-        </div>
-        <div class="talk__details">
-          <p class="t-subhead talk__speaker-name">Name</p>
-          <p class="t-body talk__speaker-info">Title, Company</p>
-          <p class="t-subhead talk__talk-title">Talk Title</p>
-          <a class="t-subhead talk__slides-link" href="#0">Slides</a>
-        </div>
-      </div>
-      <p class="t-body talk__description">this is talk text. this is talk text. this is talk text. this is talk text. this is talk text. this is talk text. this is talk text. this is talk text. this is talk text. this is talk text. this is talk text. </p>
-    </div>
-    <div class="talk">
-      <div class="talk__meta">
-        <div class="talk__image-container">
-          <img class="talk__image" src="" alt=""/>
-        </div>
-        <div class="talk__details">
-          <p class="t-subhead talk__speaker-name">Name</p>
-          <p class="t-body talk__speaker-info">Title, Company</p>
-          <p class="t-subhead talk__talk-title">Talk Title</p>
-          <a class="t-subhead talk__slides-link" href="#0">Slides</a>
-        </div>
-      </div>
-      <p class="t-body talk__description">this is talk text. this is talk text. this is talk text. this is talk text. this is talk text. this is talk text. this is talk text. this is talk text. this is talk text. this is talk text. this is talk text. </p>
-    </div>
-  </div>
-  <h3 class="t-section-title event__track">Student Track</h3>
-
-  <!-- TALKS -->
-  <div class="talks">
-    <div class="talk">
-      <div class="talk__meta">
-        <div class="talk__image-container">
-          <img class="talk__image" src="" alt=""/>
-        </div>
-        <div class="talk__details">
-          <p class="t-subhead talk__speaker-name">Name</p>
-          <p class="t-body talk__speaker-info">Title, Company</p>
-          <p class="t-subhead talk__talk-title">Talk Title</p>
-          <a class="t-subhead talk__slides-link" href="#0">Slides</a>
-        </div>
-      </div>
-      <p class="t-body talk__description">this is talk text. this is talk text. this is talk text. this is talk text. this is talk text. this is talk text. this is talk text. this is talk text. this is talk text. this is talk text. this is talk text. </p>
-    </div>
-    <div class="talk">
-      <div class="talk__meta">
-        <div class="talk__image-container">
-          <img class="talk__image" src="" alt=""/>
-        </div>
-        <div class="talk__details">
-          <p class="t-subhead talk__speaker-name">Name</p>
-          <p class="t-body talk__speaker-info">Title, Company</p>
-          <p class="t-subhead talk__talk-title">Talk Title</p>
-          <a class="t-subhead talk__slides-link" href="#0">Slides</a>
-        </div>
-      </div>
-      <p class="t-body talk__description">this is talk text. this is talk text. this is talk text. this is talk text. this is talk text. this is talk text. this is talk text. this is talk text. this is talk text. this is talk text. this is talk text. </p>
-    </div>
-    <div class="talk">
-      <div class="talk__meta">
-        <div class="talk__image-container">
-          <img class="talk__image" src="" alt=""/>
-        </div>
-        <div class="talk__details">
-          <p class="t-subhead talk__speaker-name">Name</p>
-          <p class="t-body talk__speaker-info">Title, Company</p>
-          <p class="t-subhead talk__talk-title">Talk Title</p>
-          <a class="t-subhead talk__slides-link" href="#0">Slides</a>
-        </div>
-      </div>
-      <p class="t-body talk__description">this is talk text. this is talk text. this is talk text. this is talk text. this is talk text. this is talk text. this is talk text. this is talk text. this is talk text. this is talk text. this is talk text. </p>
-    </div>
+    {%- endfor -%}
   </div>
 </div>
 
@@ -148,35 +75,35 @@ subtitle: Description text for Activate 20129
 
 <section class="container">
   <h2 class="t-display sponsor__headline">Sponsors</h2>
-  <div class="sponsor__grid sponsor__grid--main">
-    <img class="sponsor__image" src="" alt="test"/>
-    <img class="sponsor__image" src="" alt="test"/>
-    <img class="sponsor__image" src="" alt="test"/>
-    <img class="sponsor__image" src="" alt="test"/>
-    <img class="sponsor__image" src="" alt="test"/>
-  </div>
+  <ul class="sponsor__grid sponsor__grid--main">
+    {%- for item in pastSponsors.entries.slice(0,4) -%}
+      <li>
+        <img class="sponsor__image" src="{{ item.image }}" alt="1{{ item.altText }}"/>
+      </li>
+    {%- endfor -%}
+  </ul>
   <h3 class="t-display sponsor__headline">In-Kind Sponsors</h3>
-  <div class="sponsor__grid sponsor__grid--community">
-    <img class="sponsor__image" src="" alt="test"/>
-    <img class="sponsor__image" src="" alt="test"/>
-    <img class="sponsor__image" src="" alt="test"/>
-    <img class="sponsor__image" src="" alt="test"/>
-    <img class="sponsor__image" src="" alt="test"/>
-  </div>
+  <ul class="sponsor__grid sponsor__grid--community">
+    {%- for item in pastSponsors.entries.slice(0,5) -%}
+      <li>
+        <img class="sponsor__image" src="{{ item.image }}" alt="1{{ item.altText }}"/>
+      </li>
+    {%- endfor -%}
+  </ul>
   <h3 class="t-display sponsor__headline">Community Sponsors</h3>
-  <div class="sponsor__grid sponsor__grid--community">
-    <img class="sponsor__image" src="" alt="test"/>
-    <img class="sponsor__image" src="" alt="test"/>
-    <img class="sponsor__image" src="" alt="test"/>
-    <img class="sponsor__image" src="" alt="test"/>
-    <img class="sponsor__image" src="" alt="test"/>
-  </div>
+  <ul class="sponsor__grid sponsor__grid--community">
+    {%- for item in pastSponsors.entries.slice(0,6) -%}
+      <li>
+        <img class="sponsor__image" src="{{ item.image }}" alt="1{{ item.altText }}"/>
+      </li>
+    {%- endfor -%}
+  </ul>
   <h3 class="t-display sponsor__headline">Partners</h3>
-  <div class="sponsor__grid sponsor__grid--partners">
-    <img class="sponsor__image" src="" alt="test"/>
-    <img class="sponsor__image" src="" alt="test"/>
-    <img class="sponsor__image" src="" alt="test"/>
-    <img class="sponsor__image" src="" alt="test"/>
-    <img class="sponsor__image" src="" alt="test"/>
-  </div>
+  <ul class="sponsor__grid sponsor__grid--partners">
+    {%- for item in pastSponsors.entries.slice(0,8) -%}
+      <li>
+        <img class="sponsor__image" src="{{ item.image }}" alt="1{{ item.altText }}"/>
+      </li>
+    {%- endfor -%}
+  </ul>
 </section>

@@ -1,0 +1,64 @@
+{
+  "title": "Activate",
+  "subtitle": "Activate subtitle",
+  "link": "https://www.activateconf.com",
+  "author": "Author",
+  "entries": [
+    {
+      "title": "Sponsor 1",
+      "link": "#0",
+      "image": "",
+      "altText": "test",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pretium magna ac iaculis luctus. Vivamus tristique eleifend felis. Ut ut lorem id leo dapibus semper."
+    },
+    {
+      "title": "Sponsor 2",
+      "link": "#0",
+      "image": "",
+      "altText": "test",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pretium magna ac iaculis luctus. Vivamus tristique eleifend felis. Ut ut lorem id leo dapibus semper."
+    },
+    {
+      "title": "Sponsor 3",
+      "link": "#0",
+      "image": "",
+      "altText": "test",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pretium magna ac iaculis luctus. Vivamus tristique eleifend felis. Ut ut lorem id leo dapibus semper."
+    },
+    {
+      "title": "Sponsor 4",
+      "link": "#0",
+      "image": "",
+      "altText": "test",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pretium magna ac iaculis luctus. Vivamus tristique eleifend felis. Ut ut lorem id leo dapibus semper."
+    },
+    {
+      "title": "Sponsor 5",
+      "link": "#0",
+      "image": "",
+      "altText": "test",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pretium magna ac iaculis luctus. Vivamus tristique eleifend felis. Ut ut lorem id leo dapibus semper."
+    },
+    {
+      "title": "Sponsor 6",
+      "link": "#0",
+      "image": "",
+      "altText": "test",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pretium magna ac iaculis luctus. Vivamus tristique eleifend felis. Ut ut lorem id leo dapibus semper."
+    },
+    {
+      "title": "Sponsor 7",
+      "link": "#0",
+      "image": "",
+      "altText": "test",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pretium magna ac iaculis luctus. Vivamus tristique eleifend felis. Ut ut lorem id leo dapibus semper."
+    },
+    {
+      "title": "Sponsor 8",
+      "link": "#0",
+      "image": "",
+      "altText": "test",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pretium magna ac iaculis luctus. Vivamus tristique eleifend felis. Ut ut lorem id leo dapibus semper."
+    }
+  ]
+}

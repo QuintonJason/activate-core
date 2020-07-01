@@ -1,0 +1,96 @@
+{
+  "title": "Activate",
+  "subtitle": "Activate subtitle",
+  "link": "https://www.activateconf.com",
+  "author": "Author",
+  "entries": [
+    {
+      "title": "Talk 1",
+      "link": "#0",
+      "image": "",
+      "altText": "test",
+      "speaker": "Speaker Name 1",
+      "speakerTitle": "Title",
+      "speakerCompany": "Company",
+      "talkTitle": "Talk Title",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pretium magna ac iaculis luctus. Vivamus tristique eleifend felis. Ut ut lorem id leo dapibus semper."
+    },
+    {
+      "title": "Talk 2",
+      "link": "#0",
+      "image": "",
+      "altText": "test",
+      "speaker": "Speaker Name 2",
+      "speakerTitle": "Title",
+      "speakerCompany": "Company",
+      "talkTitle": "Talk Title",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pretium magna ac iaculis luctus. Vivamus tristique eleifend felis. Ut ut lorem id leo dapibus semper."
+    },
+    {
+      "title": "Talk 3",
+      "link": "#0",
+      "image": "",
+      "altText": "test",
+      "speaker": "Speaker Name 3",
+      "speakerTitle": "Title",
+      "speakerCompany": "Company",
+      "talkTitle": "Talk Title",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pretium magna ac iaculis luctus. Vivamus tristique eleifend felis. Ut ut lorem id leo dapibus semper."
+    },
+    {
+      "title": "Talk 4",
+      "link": "#0",
+      "image": "",
+      "altText": "test",
+      "speaker": "Speaker Name 4",
+      "speakerTitle": "Title",
+      "speakerCompany": "Company",
+      "talkTitle": "Talk Title",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pretium magna ac iaculis luctus. Vivamus tristique eleifend felis. Ut ut lorem id leo dapibus semper."
+    },
+    {
+      "title": "Talk 5",
+      "link": "#0",
+      "image": "",
+      "altText": "test",
+      "speaker": "Speaker Name 5",
+      "speakerTitle": "Title",
+      "speakerCompany": "Company",
+      "talkTitle": "Talk Title",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pretium magna ac iaculis luctus. Vivamus tristique eleifend felis. Ut ut lorem id leo dapibus semper."
+    },
+    {
+      "title": "Talk 6",
+      "link": "#0",
+      "image": "",
+      "altText": "test",
+      "speaker": "Speaker Name 6",
+      "speakerTitle": "Title",
+      "speakerCompany": "Company",
+      "talkTitle": "Talk Title",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pretium magna ac iaculis luctus. Vivamus tristique eleifend felis. Ut ut lorem id leo dapibus semper."
+    },
+    {
+      "title": "Talk 7",
+      "link": "#0",
+      "image": "",
+      "altText": "test",
+      "speaker": "Speaker Name 7",
+      "speakerTitle": "Title",
+      "speakerCompany": "Company",
+      "talkTitle": "Talk Title",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pretium magna ac iaculis luctus. Vivamus tristique eleifend felis. Ut ut lorem id leo dapibus semper."
+    },
+    {
+      "title": "Talk 8",
+      "link": "#0",
+      "image": "",
+      "altText": "test",
+      "speaker": "Speaker Name 8",
+      "speakerTitle": "Title",
+      "speakerCompany": "Company",
+      "talkTitle": "Talk Title",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pretium magna ac iaculis luctus. Vivamus tristique eleifend felis. Ut ut lorem id leo dapibus semper."
+    }
+  ]
+}

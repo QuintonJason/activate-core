@@ -20,35 +20,14 @@ layout: layouts/index.njk
   <h3 class="t-display past-events__title">Past Events</h3>
 
   <ul class="past-events__list">
-    {%- for item in pastEvents.entries.slice(0,5) -%}
-      <li>
-        <a href="{{ item.link }}">{{ item.title }}</a>
-      </li>
+    {%- for item in pastEvents.entries -%}
+      <li class="past-events__list-item">
+        <a href="{{ item.link }}" class="past-events__event" aria-label="{{  item.title  }}">
+          <img class="past-events__image" src="{{ item.image }}" alt="{{ item.altText }}">
+          <p class="t-body past-events__description">{{ item.description }}</p>
+        </a>
+    </li>
     {%- endfor -%}
-    <li class="past-events__list-item">
-      <a class="past-events__event">
-        <img class="past-events__image" src="" alt="test image">
-        <p class="t-body past-events__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pretium magna ac iaculis luctus. Vivamus tristique eleifend felis. Ut ut lorem id leo dapibus semper.</p>
-      </a>
-    </li>
-    <li class="past-events__list-item">
-      <a class="past-events__event">
-        <img class="past-events__image" src="" alt="test image">
-        <p class="t-body past-events__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pretium magna ac iaculis luctus. Vivamus tristique eleifend felis. Ut ut lorem id leo dapibus semper.</p>
-      </a>
-    </li>
-    <li class="past-events__list-item">
-      <a class="past-events__event">
-        <img class="past-events__image" src="" alt="test image">
-        <p class="t-body past-events__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pretium magna ac iaculis luctus. Vivamus tristique eleifend felis. Ut ut lorem id leo dapibus semper.</p>
-      </a>
-    </li>
-    <li class="past-events__list-item">
-      <a class="past-events__event">
-        <img class="past-events__image" src="" alt="test image">
-        <p class="t-body past-events__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pretium magna ac iaculis luctus. Vivamus tristique eleifend felis. Ut ut lorem id leo dapibus semper.</p>
-      </a>
-    </li>
   </ul>
 </article>
 
@@ -56,69 +35,10 @@ layout: layouts/index.njk
 <article class="container past-sponsors">
   <h3 class="t-display past-sponsors__title">Past Sponsors & Partners</h3>
   <ul class="past-sponsors__list">
-    <li>
-      <img src="" alt="test image">
-    </li>
-    <li>
-      <img src="" alt="test image">
-    </li>
-    <li>
-      <img src="" alt="test image">
-    </li>
-    <li>
-      <img src="" alt="test image">
-    </li>
-    <li>
-      <img src="" alt="test image">
-    </li>
-    <li>
-      <img src="" alt="test image">
-    </li>
-    <li>
-      <img src="" alt="test image">
-    </li>
-    <li>
-      <img src="" alt="test image">
-    </li>
-    <li>
-      <img src="" alt="test image">
-    </li>
-    <li>
-      <img src="" alt="test image">
-    </li>
-    <li>
-      <img src="" alt="test image">
-    </li>
-
+    {%- for item in pastSponsors.entries -%}
+      <li>
+        <img src="{{ item.image }}" alt="{{ item.altText }}">
+      </li>
+    {%- endfor -%}
   </ul>
 </article>
-
-## Post pages
-
-The pages found in in the posts
-
-<ul class="listing">
-{%- for page in collections.post -%}
-  <li>
-    <a href="{{ page.url }}">{{ page.data.title }}</a> -
-    <time datetime="{{ page.date }}">{{ page.date | dateDisplay("LLLL d, y") }}</time>
-  </li>
-{%- endfor -%}
-</ul>
-
-## Links from an external data source
-
-These links were sourced from [hawksworx.com](https://www.hawksworx.com/feed.json) at build time.
-
-<ul class="listing">
-{%- for item in hawksworx.entries.slice(0,5) -%}
-  <li>
-    <a href="{{ item.link }}">{{ item.title }}</a>
-  </li>
-{%- endfor -%}
-</ul>
-
-
-
-
-
