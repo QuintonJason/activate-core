@@ -56,18 +56,12 @@ subtitle: Description text for Activate 20129
       <h3 class="t-section-title hackathon__teams-headline">Teams</h3>
       <ul class="hackathon-teams__list">
         <!-- TODO rework to not have repetitive link name in VO -->
-        <li class="hackathon-teams__list-item">
-          <p class="t-subhead hackathon-teams__name">Team Name - Winner</p>
-          <a class="t-subhead hackathon-teams__link" href="#0">Repo</a>
-        </li>
-        <li class="hackathon-teams__list-item">
-          <p class="t-subhead hackathon-teams__name">Team Name</p>
-          <a class="t-subhead hackathon-teams__link" href="#0">Repo</a>
-        </li>
-        <li class="hackathon-teams__list-item">
-          <p class="t-subhead hackathon-teams__name">Team Name</p>
-          <a class="t-subhead hackathon-teams__link" href="#0">Repo</a>
-        </li>
+        {%- for item in teams.entries -%}
+          <li class="hackathon-teams__list-item">
+            <p class="t-subhead hackathon-teams__name">{{ item.teamName}}{% if item.isWinner == true %} - Winner{% endif %}</p>
+            <a href="{{ item.repoLink }}" class="t-subhead hackathon-teams__link" href="#0">Repo</a>
+          </li>
+        {%- endfor -%}
       </ul>
     </div>
   </div>

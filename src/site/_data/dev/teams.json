@@ -1,0 +1,38 @@
+{
+  "title": "Activate",
+  "subtitle": "Activate subtitle",
+  "link": "https://www.activateconf.com",
+  "author": "Author",
+  "entries": [
+    {
+      "title": "Talk 1",
+      "isWinner": true,
+      "link": "#0",
+      "image": "",
+      "altText": "test",
+      "teamName": "Team Name",
+      "repoLink": "#0",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pretium magna ac iaculis luctus. Vivamus tristique eleifend felis. Ut ut lorem id leo dapibus semper."
+    },
+    {
+      "title": "Talk 2",
+      "isWinner": false,
+      "link": "#0",
+      "image": "",
+      "altText": "test",
+      "teamName": "Team Name",
+      "repoLink": "#0",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pretium magna ac iaculis luctus. Vivamus tristique eleifend felis. Ut ut lorem id leo dapibus semper."
+    },
+    {
+      "title": "Talk 3",
+      "isWinner": false,
+      "link": "#0",
+      "image": "",
+      "altText": "test",
+      "teamName": "Team Name",
+      "repoLink": "#0",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pretium magna ac iaculis luctus. Vivamus tristique eleifend felis. Ut ut lorem id leo dapibus semper."
+    }
+  ]
+}
