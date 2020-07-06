@@ -46,11 +46,19 @@ body {
   width: 90%;
 
   @media (min-width: $mid) {
-    width: 600px;
+    width: 700px;
   };
   @media (min-width: $wide) {
     width: 1100px;
   };
+}
+
+.padding-right-dt {
+  padding-right: 0;
+
+  @media (min-width: $mid) {
+    padding-right: 120px;
+  }
 }
 
 code {

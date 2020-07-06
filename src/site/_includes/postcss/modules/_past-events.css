@@ -10,8 +10,12 @@
 
 .past-events__list {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr;
   grid-gap: 50px 20px;
+
+  @media (min-width: $mid) {
+    grid-template-columns: repeat(3, 1fr);
+  };
 }
 
 .past-events__image {

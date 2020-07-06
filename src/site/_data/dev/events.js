@@ -13,17 +13,15 @@ const base = Airtable.base(AIRTABLE_BASE)
 module.exports = () => {
   return new Promise((resolve, reject) => {
     let allRecords = []
+    console.log("before base");
 
-    base('Links')
+    base('Events')
       .select({
         maxRecords: 999
       })
       .eachPage((records, fetchNextPage) => {
         records.forEach(r => {
-          allRecords.push({
-            keyword: r.get('keyword'),
-            url: r.get('url')
-          })
+          allRecords.push(r.fields)
         })
 
         fetchNextPage()
@@ -32,6 +30,7 @@ module.exports = () => {
         if (err) {
           reject(err)
         } else {
+          console.log("stuff: ", allRecords );
           resolve(allRecords)
         }
       })

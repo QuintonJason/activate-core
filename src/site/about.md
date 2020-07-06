@@ -8,7 +8,7 @@ subtitle: Description text for Activate 20129
 <div class="container event__header">
   <h2 class="t-banner event__name">Activate 2019</h2>
   <div class="event__info">
-    <p class="t-body event__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pretium magna ac iaculis luctus. Vivamus tristique eleifend felis. Ut ut lorem id leo dapibus semper. Vestibulum fringilla est placerat, mattis erat a, condimentum enim. Morbi quis metus ac magna dignissim auctor. Nullam quis vulputate massa. Curabitur eget lectus sagittis, sagittis quam sed, ullamcorper tortor. Integer eu fringilla felis.</p>
+    <p class="t-body padding-right-dt event__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pretium magna ac iaculis luctus. Vivamus tristique eleifend felis. Ut ut lorem id leo dapibus semper. Vestibulum fringilla est placerat, mattis erat a, condimentum enim. Morbi quis metus ac magna dignissim auctor. Nullam quis vulputate massa. Curabitur eget lectus sagittis, sagittis quam sed, ullamcorper tortor. Integer eu fringilla felis.</p>
     <div class="event__details">
       <p class="t-subhead event__date">Date <datetime>some time</datetime></p>
       <p class="t-subhead event__location">Location some location</p>
@@ -48,7 +48,7 @@ subtitle: Description text for Activate 20129
 
 <section class="container">
   <div class="hackathon__wrapper">
-    <div class="hackathon__info">
+    <div class="padding-right-dt hackathon__info">
       <h2 class="t-display  hackathon__headline">Hackathon</h2>
       <p class="t-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pretium magna ac iaculis luctus. Vivamus tristique eleifend felis. Ut ut lorem id leo dapibus semper. Vestibulum fringilla est placerat, mattis erat a, condimentum enim. Morbi quis metus ac magna dignissim auctor. Nullam quis vulputate massa. Curabitur eget lectus sagittis, sagittis quam sed, ullamcorper tortor. Integer eu fringilla felis.</p>
     </div>

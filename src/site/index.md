@@ -3,7 +3,7 @@ title: About Activate Core
 layout: layouts/index.njk
 ---
 <article class="container index-intro">
-  <div class="index-intro__header">
+  <div class="padding-right-dt index-intro__header">
     <h2 class="t-banner index-intro__headline">About Activate Blurb</h2>
     <p class="t-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pretium magna ac iaculis luctus. Vivamus tristique eleifend felis. Ut ut lorem id leo dapibus semper. Vestibulum fringilla est placerat, mattis erat a, condimentum enim. Morbi quis metus ac magna dignissim auctor. Nullam quis vulputate massa. Curabitur eget lectus sagittis, sagittis quam sed, ullamcorper tortor. Integer eu fringilla felis.</p>
   </div>
@@ -28,6 +28,7 @@ layout: layouts/index.njk
         </a>
     </li>
     {%- endfor -%}
+    {{ events }}
   </ul>
 </article>
 
